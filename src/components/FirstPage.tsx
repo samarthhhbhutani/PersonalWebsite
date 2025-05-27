@@ -264,7 +264,7 @@ export function FirstPage(){
                     >
                         <motion.img 
                             variants={imageVariants}
-                            src="src/components/img/try1.jpg" 
+                            src="public/static/images/try1.jpg" 
                             className="w-64 rounded-full h-64 relative z-10"
                         />
                         <motion.div 
