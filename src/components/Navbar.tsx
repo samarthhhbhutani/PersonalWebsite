@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-
-export function Navbar({ ref1, ref2, ref3, ref4, ref5 }) {
+//@ts-expect-error "abcd"
+export function Navbar({ ref2, ref3, ref4, ref5 }) {
+    //@ts-expect-error "abcd"
     const handleClick = (ref) => {
         ref.current?.scrollIntoView({ behavior: 'smooth' });
     }
-
     const navItems = [
         { name: "About Me", ref: ref2 },
         { name: "Experience", ref: ref5 },

@@ -17,7 +17,7 @@ export function App() {
     <div className="bg-black">
       <div className="pl-4">
         <div ref={ref1} className="min-h-screen">
-          <Navbar ref1={ref1} ref2={ref2} ref3={ref3} ref4={ref4} ref5={ref5} />
+          <Navbar ref2={ref2} ref3={ref3} ref4={ref4} ref5={ref5} />
           <FirstPage />
         </div>
         <div ref={ref2}>
