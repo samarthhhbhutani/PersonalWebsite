@@ -1,5 +1,5 @@
-import { Meteors } from "./ui/meteors";
-import { motion, AnimatePresence } from "framer-motion";
+// import { Meteors } from "./ui/meteors";
+import { motion } from "framer-motion";
 import { useEffect, useState, memo } from "react";
 
 const TypewriterText = memo(function TypewriterText() {

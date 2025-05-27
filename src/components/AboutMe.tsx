@@ -1,4 +1,4 @@
-import { Car } from "lucide-react";
+// import { Car } from "lucide-react";
 import { useState } from "react";
 import { Popup } from "./Popup";
 import { motion } from "framer-motion";
@@ -11,6 +11,7 @@ export function AboutMe() {
     link: "",
   });
 
+  // @ts-expect-error "abc"
   function displayCard( title, description, link ):void {
 
     setTimeout(()=>{setDisp({
@@ -173,7 +174,6 @@ function Card({
   description: string;
   onClick:()=>void
 }) {
-  const [popupDisp, setPopupDisp] = useState(false);
   return (
     <motion.div 
       whileHover={{ scale: 1.02 }}

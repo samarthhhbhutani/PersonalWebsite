@@ -1,11 +1,9 @@
-import React, { useRef } from "react";
-import { Meteors } from "./components/ui/meteors";
+import  { useRef } from "react";
 import { FirstPage } from "./components/FirstPage";
 import { Navbar } from "./components/Navbar";
 import { AboutMe } from "./components/AboutMe";
 import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
-import { TracingBeam } from "./components/ui/tracing-beam";
 import { Contact } from "./components/Contact";
 
 export function App() {
