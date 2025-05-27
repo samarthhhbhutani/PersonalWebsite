@@ -81,7 +81,7 @@ export function AboutMe() {
     displayCard(
       "DARPA Triage Challenge",
       "Only Asian team to qualify in the 1st phase of DARPA Triage Classification Challenge. Ranked among the top 15 globally and won $60,000 in funding.",
-      "src/components/img/darpa.png"
+      "/darpa.png"
     );
   }}
 />
@@ -93,7 +93,7 @@ export function AboutMe() {
     displayCard(
       "Best Paper Award",
       "Won the best paper award at ICDAM'24, London Metropolitan University, for the paper 'Implementation of Machine Learning Methods for Precise Detection of Email Based Cyberbullying'.",
-      "src/components/img/paper.png"
+      "/paper.png"
     );
   }}
 />
@@ -105,7 +105,7 @@ export function AboutMe() {
     displayCard(
       "IMAV'24",
       "Bagged the 2nd place in the IMAV Hiker Rescue Challenge, Germany. First Indian podium finish in the past 10 years.",
-      "src/components/img/imav.png"
+      "/imav.png"
     );
   }}
 />
@@ -117,7 +117,7 @@ export function AboutMe() {
     displayCard(
       "SUAS'24",
       "Built an autonomous aerial system capable of detecting and geotagging ground targets. Engineered an in-house Region Proposal Network (RPN) and OCR module, improving detection accuracy by 8% over standard benchmarks.",
-      "src/components/img/suas.png"
+      "/suas.png"
     );
   }}
 />
@@ -129,7 +129,7 @@ export function AboutMe() {
     displayCard(
       "DSA Achievements",
       "Solved over 500+ Data Structures and Algorithms problems across platforms like Leetcode, GeeksforGeeks, and CodeStudio. Built strong problem-solving and algorithmic thinking skills.",
-      "src/components/img/dsa.png"
+      "/dsa.png"
     );
   }}
 />
@@ -141,7 +141,7 @@ export function AboutMe() {
     displayCard(
       "NSBC'24",
       "Secured the 1st runner-up position at NSBC'24, NSUT’s flagship business case competition. Applied structured frameworks to solve real-world business problems.",
-      "src/components/img/nsbc.png"
+      "/nsbc.png"
     );
   }}
 />

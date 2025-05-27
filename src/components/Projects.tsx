@@ -25,13 +25,13 @@ export function Projects() {
                         title="Official College Job Portal" 
                         description="Developed and deployed the backend of the college's official job portal, streamlining placements for 10,000+ students with one-click job applications using pre-verified profiles.
                     " 
-                        link="src/components/img/rm.png" 
+                        link="/rm.png" 
                         projectlink="https://www.rm.dtu.ac.in/login"
                     />
                     <Card 
                         title="Brainly: Curated Linkboards" 
                         description="Engineered a full-stack web platform enabling 100+ users to authenticate via both local and third-party (Google) OAuth strategies, save important links in the form of mood boards, and manage them through a responsive, user-friendly interface." 
-                        link="src/components/img/brainly.png"
+                        link="/brainly.png"
                         projectlink="https://brainly-xi.vercel.app/"
                     />
                     <Card 
@@ -39,14 +39,14 @@ export function Projects() {
                         " 
                         description="Developed a multi-robot system with 3 UAVs and 2 UGVs, integrating ensemble algorithmic and deep learning models. 
                         Achieved precise non-contact detection of human vitals (heart rate, respiratory rate, burns)." 
-                        link="src/components/img/dtc.png"
+                        link="/dtc.png"
                         projectlink="https://triagechallenge.darpa.mil/ce1/systems"
                     />
                     <Card 
                         title="Object Detection Localisation and Classification" 
                         description="Developed an autonomous aerial system capable of detecting on-ground target text-boards.
                         Engineered an in-house Region Proposal Network (RPN), geotagging, and Optical Character Recognition (OCR) system; enhanced accuracy by 8% over off-the-shelf solutions." 
-                        link="src/components/img/odlc.png"
+                        link="/odlc.png"
                         projectlink="https://github.com/samarthhhbhutani/ODLC-Object-Detection-Localization-Classification-.git"
                     />
                 </motion.div>
