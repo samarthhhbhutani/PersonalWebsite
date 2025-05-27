@@ -105,7 +105,7 @@ export function AboutMe() {
     displayCard(
       "IMAV'24",
       "Bagged the 2nd place in the IMAV Hiker Rescue Challenge, Germany. First Indian podium finish in the past 10 years.",
-      "/imav.png"
+      "/imav.jpg"
     );
   }}
 />
